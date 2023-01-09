@@ -1,0 +1,14 @@
+import React from 'react';
+
+import { images } from '../../constants';
+
+function SubHeading({ title }) {
+  return (
+    <div style={{marginBottom: '1rem'}}>
+      <p className='p__opensans'>{ title }</p>
+      <img src={images.spoon} alt='spoon__img' />
+    </div>
+  );
+}
+
+export default SubHeading;
